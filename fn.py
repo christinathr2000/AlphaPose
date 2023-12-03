@@ -2,7 +2,7 @@ import torch
 import re
 import os
 import collections
-from torch._six import string_classes, int_classes
+#from torch._six import string_classes, int_classes
 import cv2
 from opt import opt
 from tqdm import tqdm
@@ -12,6 +12,9 @@ from PIL import Image
 import numpy as np
 import math
 import copy
+
+int_classes = int
+string_clases = str
 
 RED = (0, 0, 255)
 GREEN = (0, 255, 0)
